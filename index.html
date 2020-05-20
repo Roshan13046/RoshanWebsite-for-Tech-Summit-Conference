@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1">
+
+    <title>
+    Tech Summit Conference  Website
+    </title>
+    
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="styling.css" rel="stylesheet">  
+    
+<!--    Font style arvo link-->
+   <link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
+</head>
+    
+<body data-spy="scroll" dat-target="#myNavBar">
+    
+<!--    ADD video to the bosy element -->    
+    <video autoplay loop muted id="bgvideo">
+        <source src="images/shapes.mp4" type="video/mp4">        
+    </video>
+<!--    Create navigation bar with scrollspy -->
+<!--    Class changed from default to custom-->
+    <nav role="navigation" class="navbar navbar-custom navbar-fixed-top" id="mynavBar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" style="font-size: 20px">Tech Summit Conference .</a>
+                <button type="button" class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse">
+                    
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>    
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                    
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbarCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li class="active"><a href="#home">Home</a></li> <li ><a href="#about">About</a></li>
+                    <li ><a href="#promise">Our Promise</a></li>
+                    <li ><a href="#contactUs">Contact us</a></li>
+                    <li ><a href="login.html">Login</a></li>
+                </ul>            
+            </div>
+        </div>    
+    </nav>
+    
+<!--    Create the home section with title ,goal and joins us button -->
+    <div class="jumbotron" id="home">
+        <div class="container">
+            <h1>Want to Organize a Tech Summit Conference ?</h1>
+            <h2>We will help you out. </h2>
+            <p><a class="btn" href="details.html">Enter the Conference Details.</a></p>
+             <p><a class="btn" href="https://www.larksuite.com/activity/en/signup/1120/?tracking_code=7010o000002GrR2AAK&campaignid=9676710139&adgroupid=99378019196&adid=426715621613&keywordid=kwd-31548451&network=g&gclid=CjwKCAjwh472BRAGEiwAvHVfGoGabl7L0wIbIuI_t48ldXt4P2W3WvQYgy9U97ICrWvdC--n2e_4DhoCHm8QAvD_BwE">Host a Conference Now.</a></p>
+        </div>
+    </div>
+
+<!--Create about section showing Conference Qualities  usig grid system-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="images/VideoConference.png" class="aboutImage">
+                    <h2>Quality Video and Recording feature.</h2>
+                    <p>Live Quality Video Conference with Recording Feature. </p>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/LiveChat.png"class="aboutImage">
+                    <h2>Live Chat Support with unlimited members.</h2>
+                    <p>Live Chat Support is provided during live conference meets.</p>                    
+                </div>
+                 <div class="col-md-3">
+                    <img src="images/Anytime.png"class="aboutImage">
+                    <h2>Anytime Conference available.</h2>  
+                    <p>We will Oranganize the Conference at Anytime Time according to your comfort.</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/techSupport.png"class="aboutImage">
+                    <h2>Live Technical Support .</h2>
+                    <p>We will help you Out for any Technical problems at any time. </p>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--    Create Carousel -->
+    <div id="promise" class="container-fluid">
+        <div class="carousel slide" id="myCarousel" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li> 
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li> 
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li> 
+                 <li data-target="#myCarousel" data-slide-to="6"></li> 
+                <li data-target="#myCarousel" data-slide-to="7"></li> 
+                <li data-target="#myCarousel" data-slide-to="8"></li> 
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/samsungSummit.jfif">
+                    <div class="carousel-caption">
+                        <h2>Samsumg Electronics summit organized on 16 May 2020 </h2>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <img src="images/goldmansSachsSummit.jfif">
+                    <div class="carousel-caption">
+                        <h2>Goldman Sachs Tech conference organized on 17 May 2020</h2>
+                    </div>
+                </div>
+                
+                  <div class="item">
+                    <img src="images/Uber.jpg">
+                    <div class="carousel-caption">
+                        <h2>Uber Oraganized Tech Summit on 17 MAy 2020.</h2>
+                    </div>
+                </div>
+                
+                  <div class="item">
+                    <img src="images/MakeInIndiaSummit.jfif"images/projects.webp"">
+                    <div class="carousel-caption">
+                        <h2>Make in india Tech Conference Organised on 18 April 2020</h2>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <img src="images/BengaluruTechSummit.jfif"images/projects.webp"">
+                    <div class="carousel-caption">
+                        <h2>Bengaluru Tech Summit Organised on 18 April 2020</h2>
+                    </div>
+                </div>
+                                                  
+                  <div class="item">
+                    <img src="images/amazon.jpg"images/Skills.webp"">
+                    <div class="carousel-caption">
+                       <h2>Amazon India tech conference Organized on 12 MAy 2020.</h2>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/start.jpg"images/money.webp"">
+                    <div class="carousel-caption">
+                        <h2>Start with us for better experience.</h2>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <img src="images/successful.jfif">
+                    <div class="carousel-caption">
+                       <h2>We will make your conference successful.</h2>
+                    </div>
+                </div>
+
+                
+            </div>
+            <!--                Previous link -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"> </span>
+                    <span class="sr-only">Previous</span>
+            </a>
+            <!--               next link -->
+            <a class="right carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-right"> </span>
+                    <span class="sr-only">Next</span>
+            </a>
+            
+        </div>
+    </div>
+<!--    Add a footer for website -->
+    <div class="fotter">
+        <div class="container">
+            <p style="color: yellow">&copy; Developed by Roshan .</p>
+          </div>
+      </div>
+    
+
+<!-- jQuery (necessary for Bootstrap's JavaScript
+plugins) -->
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/j
+query.min.js">
+</script>
+<!-- Include all compiled plugins (below), or include
+individual files as needed -->
+<script src="js/bootstrap.min.js">
+</script>
+    
+</body>
+<!--    JjQuery code to control the interval of time to slide pictures-->
+    <script src="js/bootstrap.min.js">    
+    </script>
+    <script>
+        $(function(){
+            $('.carousel').carousel({
+               interval:1000
+            });
+        });
+    </script>
+    
+    
+</html>
