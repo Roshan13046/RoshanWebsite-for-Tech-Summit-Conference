@@ -12,7 +12,7 @@ Welcome to [Website for Tech Summit Conference](https://roshan13046.github.io/Ro
 
 **Improving README and add comments** are also appreciated.
 
-Check out [Contribution.md] (https://github.com/Roshan13046/RoshanWebsite-for-Tech-Summit-Conference/blob/master/Contribution.md) file before contributing.
+Check out [Contribution.md](https://github.com/Roshan13046/RoshanWebsite-for-Tech-Summit-Conference/blob/master/Contribution.md)! file before contributing.
 
 ## Coding Style
 
