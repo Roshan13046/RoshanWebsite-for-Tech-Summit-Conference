@@ -1,6 +1,9 @@
 
 # Tech-Summit Conference website:
 
+![ConferenceWebSite](https://user-images.githubusercontent.com/55108788/97798756-14afed00-1c4f-11eb-9c01-0c41e4169c6a.png)
+
+
 This Project is made as a part of Learning Front-end Web Development. 
 
 This webpage is made right from scratch using HTML, CSS, Bootstrap, JQuery.
@@ -29,7 +32,7 @@ For info about how to contribute to Open Source and Participate in Hacktoberfest
 
 ## Contributions
 
-Read the [Contribution Guidlines](https://github.com/aniketsharma00411/algorithmsUse/blob/master/CONTRIBUTING.md) before you contribute.
+Read the [Contribution Guidlines](https://github.com/Roshan13046/RoshanWebsite-for-Tech-Summit-Conference/blob/master/Contribution.md) before you contribute.
 
 You can also create an issue or [contact us](https://github.com/Roshan13046) if you have any doubts.
 
