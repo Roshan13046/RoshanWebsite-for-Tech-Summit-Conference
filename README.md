@@ -21,11 +21,11 @@ Check [Project] (https://roshan13046.github.io/RoshanWebsite-for-Tech-Summit-Con
 
 ## Hacktoberfest
 
-This repo is Hacktoberfest friendly. But make sure that the you don't spam with PRs. Read the `CONTRIBUTING.md` file for Contribution Guidelines.
+This repo is Hacktoberfest friendly. But make sure that the you don't spam with PRs. Read the `CONTRIBUTING.md` file for Contribution Guidelines. You can contribute and raise a PR accordingly.
 
 For info about how to contribute to Open Source and Participate in Hacktoberfest, check out the below post:
 
-https://cppsecrets.com/users/5617971101051071011161151049711410997484852494964103109971051084699111109/Open-Source-and-Hacktoberfest.php
+[Hacktoberfest](https://cppsecrets.com/users/5617971101051071011161151049711410997484852494964103109971051084699111109/Open-Source-and-Hacktoberfest.php)
 
 ## Contributions
 
